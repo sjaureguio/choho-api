@@ -33,3 +33,9 @@ $router->get('/api/products/{id}', 'ProductController@record');
 $router->post('/api/products', 'ProductController@store');
 $router->delete('/api/products/{id}', 'ProductController@destroy');
 
+// CRUD tabla advisors (Asesores)
+$router->get('/api/advisors', 'AdvisorController@records');
+$router->get('/api/advisors/{id}', 'AdvisorController@record');
+$router->post('/api/advisors', 'AdvisorController@store');
+$router->delete('/api/advisors/{id}', 'AdvisorController@destroy');
+
