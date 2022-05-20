@@ -27,3 +27,9 @@ $router->get('/api/product-types/{id}', 'ProductTypeController@record');
 $router->post('/api/product-types', 'ProductTypeController@store');
 $router->delete('/api/product-types/{id}', 'ProductTypeController@destroy');
 
+// CRUD tabla products (productos)
+$router->get('/api/products', 'ProductController@records');
+$router->get('/api/products/{id}', 'ProductController@record');
+$router->post('/api/products', 'ProductController@store');
+$router->delete('/api/products/{id}', 'ProductController@destroy');
+
