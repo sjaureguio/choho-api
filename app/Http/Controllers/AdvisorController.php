@@ -17,7 +17,7 @@ class AdvisorController extends Controller
             'success' => true,
             'message' => 'OK',
             'data' => $records
-        ], 200);
+        ], 201);
     }
 
     /**
