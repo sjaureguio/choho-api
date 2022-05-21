@@ -51,3 +51,6 @@ $router->get('/api/orders/{id}', 'OrderController@record');
 $router->post('/api/orders', 'OrderController@store');
 $router->delete('/api/orders/{id}', 'OrderController@destroy');
 
+
+$router->get('/orders', 'OrderController@index');
+

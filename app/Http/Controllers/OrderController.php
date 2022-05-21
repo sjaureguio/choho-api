@@ -2,12 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
 use App\Models\Order;
 use App\Models\Advisor;
 
 class OrderController extends Controller
 {
+    /**
+     * Metodo que retorna una vista
+     */
+    public function index()
+    {
+        return View::make('pedidos.index');
+    }
+
     /**
      * Método para obtener los asesores con los clientes asignados y estos con sus pedidos
      */
