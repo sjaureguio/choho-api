@@ -10,13 +10,11 @@ Para Dessarrolar la prueba en cuestión se usó PHP como lenguaje de programaci�
 
 1. Desde la consola diríjase a la carpeta C:\laragon\www\
 2. Clona o descarga el proyecto del siguiente respositorio: [https://github.com/sjaureguio/choho-api](https://github.com/sjaureguio/choho-api "Clic")
-3. En la ruta del proyecto, ejecuta los siguientes comandos
-    <html>
-    <body>
+3. En la ruta del proyecto, ejecuta los siguientes comandos <br>
+    
     <code>- composer install</code><br>
     <code>- php artisan key:generate</code>
-    </body>
-    </html>
+    
 4. Crear una bd con el nombre de "choho"
 5. En la carpeta public del proyecto se encuentra la BD con el nombre de <strong>choho.sql</strong>. El cuál, debe de ser restablecido.
 6. Reiniciar laragon <br>
