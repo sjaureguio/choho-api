@@ -13,6 +13,7 @@ Para Dessarrolar la prueba en cuestión se usó PHP como lenguaje de programaci�
 3. En la ruta del proyecto, ejecuta los siguientes comandos <br>
     
     <code>- composer install</code><br>
+    <code>- cp .env.example .env</code><br>
     <code>- php artisan key:generate</code>
     
 4. Crear una bd con el nombre de "choho"
